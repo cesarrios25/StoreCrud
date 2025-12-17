@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Detail</title>
+        <link rel="stylesheet" href="./CSS/product_detail.css">
+    </head>
+    <body>
+
+        <header class="principal">
+            <section class="promo">
+                <p>Sing up and get 20% off to your first order. <u>Sing Up Now</u></p>
+                <span>X</span>
+            </section>
+
+            <section class="header">
+                <nav class="navbar">
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list" id="nav-list">
+                        <img src="./assets/CRUD.STORE.png" alt="logo">
+                        <li><a href="#">Shop</a><img src="./assets/Vector-15.png" alt=""></li>
+                        <li class="item"><a href="#">On Sale</a></li>
+                        <li class="item"><a href="#">New Arrivals</a></li>
+                        <li class="item"><a href="#">Brands</a></li>                        
+                    </ul>
+
+                    <div class="search">
+                        <img src="./assets/Vector-3.png" alt="">
+                        <input type="text" placeholder="Search for products...">
+                    </div>
+
+                    <div class="cart-user">
+                        <img src="./assets/Vector.png" alt="">
+                        <img src="./assets/Vector-2.png" alt="">
+                    </div>
+
+                </nav>
+            </section>
+        </header>
+        <hr class="separador-productos">
+        <!-- ----------------------------------------------------------------------------- -->
+
+        <section>
+            <div class="contenedor-navlist_products">
+                <nav class="navbar-products"></nav>
+                    <ul class="nav-list_products" id="nav-list_products">
+                        <li><a href="#">Home</a><img src="./assets/derecha.png" alt=""></li>
+                        <li><a href="#">Shop</a><img src="./assets/derecha.png" alt=""></li>
+                        <li><a href="#">Men</a><img src="./assets/derecha.png" alt=""></li>
+                        <li><a href="#">T-shirts</a></li>                        
+                    </ul>
+                </nav>
+            </div>
+
+            <section class="contenedor-products">
+
+                <div class="contenedor-products_izquierda">
+                    <div class="contenedor-item_products">
+                        <div><img src="./assets/1.png" alt=""></div>
+                        <div><img src="./assets/2.png" alt=""></div>
+                        <div><img src="./assets/3.png" alt=""></div>
+                    </div>
+                    <div class="item_products">
+                        <div>
+                            <img src="./assets/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenedor-products_derecha">
+                    <h1>One Life Graphic T-shirt</h1>
+                    <div class="contenedor-estrellas">
+                        <img src="./assets/Star 3.png" alt="">
+                        <img src="./assets/Star 3.png" alt="">
+                        <img src="./assets/Star 3.png" alt="">
+                        <img src="./assets/Star 3.png" alt="">
+                        <span>4.5/5</span>
+                    </div>
+                    
+                    <p class="precio">$260<span class="precio-anterior">$300</span><span class="descuento">-40%</span></p>
+                    <p class="descripcion_item">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+                    <hr class="separador-productos_descripcion">
+                    <div class="contenedor-opcion_color">
+                        <p>Select Colors</p>
+                        <span class="color rojo"><img src="./assets/selec.png" alt=""></span>
+                        <span class="color verde"></span>
+                        <span class="color azul"></span>
+
+                    </div>
+                    
+                    <hr class="separador-productos_descripcion">
+                    <div class="contenedor-opcion_talla">
+                        <p>Choose Size</p>
+                        <span class="talla eleccion">Small</span>
+                        <span class="talla eleccion">Medium</span>
+                        <span class="talla eleccion_talla">Large</span>
+                        <span class="talla eleccion">X-Large</span>
+                    </div>
+                    
+                    <hr class="separador-productos_descripcion">
+
+                    <div class="contenedor-cantidad_agregar">
+                        <div class="agregar_cantidad">
+                            <button class="disminuir"><img src="./assets/Vector-19.png" alt=""></button>
+                            <span>1</span>
+                            <button class="aumentar"><img src="./assets/mas.png" alt=""></button>
+                        </div>
+                        <button class="agregar_carrito">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+            <!-- ----------- -->
+
+            <section>
+            
+                <div class="contenedor_titulos_reviews">
+                    <h2>Products Details</h2>
+                    <h2 class="activo">Rating & Reviews</h2>
+                    <h2>FAQs</h2>
+                </div>
+
+
+                <div class="contenedor-reviews">
+                    <div>
+                        <h2>All Reviews <span>(451)</span></h2>
+                    </div>
+                    
+                    <div class="contenedor-botones_reviews">
+                        <button class="cont_r"><img class="op" src="./assets/Vector-5.png" alt=""></button>
+                        <div class="latest">
+                            <span>Latest</span>
+                            <img src="./assets/Vector-15.png" alt="">
+                        </div>
+                        <button class="review">Write a Review</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="contenedor-card_customers">
+                        <div>
+                            <article class="card-customers">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <h2>Samantha D.<img class="valoracion-usuario" src="./assets/ok.png" alt=""></h2>
+                                <p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+                                <p>Posted on August 14, 2023</p>
+                            </article>
+
+                            <article class="card-customers">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <h2>Alex M.<img class="valoracion-usuario" src="./assets/ok.png" alt=""></h2>
+                                <p>"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+                                <p>Posted on August 15, 2023</p>
+                            </article>
+
+                            <article class="card-customers">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <h2>Ethan R.<img class="valoracion-usuario" src="./assets/ok.png" alt=""></h2>
+                                <p>"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+                                <p>Posted on August 16, 2023</p>
+                            </article>
+
+                            <article class="card-customers">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <h2>Olivia P.<img class="valoracion-usuario" src="./assets/ok.png" alt=""></h2>
+                                <p>"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."</p>
+                                <p>Posted on August 17, 2023</p>
+                            </article>
+
+                            <article class="card-customers">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <h2>Liam K.<img class="valoracion-usuario" src="./assets/ok.png" alt=""></h2>
+                                <p>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+                                <p>Posted on August 18, 2023</p>
+                            </article>
+                            <article class="card-customers">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <h2>Ava H.<img class="valoracion-usuario" src="./assets/ok.png" alt=""></h2>
+                                <p>"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+                                <p>Posted on August 19, 2023</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="contenedor-btn_reviews">
+                        <button class="btn-card_reviews">Load More Reviews</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ----------------------------------------------------------------------------------------------------------- -->
+
+        <section class="contenedor-productos">
+                <h1>You ight also like</h1>
+                <div class="contenedor-cards_arrivals">
+                    <article class="contenedor-card">
+                        <div class="imagen-producto">
+                            <img src="./assets/polo.png" alt="">
+                        </div>
+                        <p>Polo with Contrast Trims</p>
+                        <div class="valoracion">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <span>4/5</span>
+                        </div>
+                        <p class="precio">$212<span class="precio-anterior">$242</span><span class="descuento">-20%</span></p>
+                    </article>
+                    <!-- -------- -->
+                     <article class="contenedor-card">
+                        <div class="imagen-producto">
+                            <img src="./assets/gradient.png" alt="">
+                        </div>
+                        <p>Gradient Graphic T-shirt</p>
+                        <div class="valoracion">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <span>3.5/5</span>
+                        </div>
+                        <p class="precio">$120 <span class="precio-anterior">$260</span><span class="descuento">-20%</span></p>
+                    </article>
+                    <!-- -------- -->
+                     <article class="contenedor-card">
+                        <div class="imagen-producto">
+                            <img src="./assets/polo tipping.png" alt="">
+                        </div>
+                        <p>Polo with Tipping Details</p>
+                        <div class="valoracion">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <span>4.5/5</span>
+                        </div>
+                        <p class="precio">$180</p>
+                    </article>
+                    <!-- -------- -->
+                     <article class="contenedor-card">
+                        <div class="imagen-producto">
+                            <img src="./assets/black stripper.png" alt="">
+                        </div>
+                        <p>Black Striped T-shirt</p>
+                        <div class="valoracion">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <img src="./assets/Star 3.png" alt="">
+                            <span>5/5</span>
+                        </div>
+                        <p class="precio">$120 <span class="precio-anterior">$150</span><span class="descuento">-30%</span></p>
+                    </article>
+                </div>
+            </section>
+
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+            
+            <aside class="contenedor-noticias">
+                <div class="contenedor-titulo_noticias">
+                        <img 
+                    src="./assets/STAY UPTO DATE ABOUT OUR LATEST OFFERS.png" alt="Stay up to date about our latest offers" class="contenedor-titulo">
+                </div>
+
+                <div class="contenedor-input_noticias">
+                    <div class="contenedor-input_email">
+                        <img src="./assets/Vector-8.png" alt="email icon">
+                        <input type="email" placeholder="Enter your email address">
+                    </div>
+                    <button type="button">Subscribe to Newsletter</button>
+                </div>
+            </aside>
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+            <section class="contenedor-principal_footer">
+                <section class="contenedor-info_footer">
+
+                    <div class="info_1">
+                        <img src="./assets/CRUD.STORE.png" alt="">
+                        <p>We have clothes that suits your style and which you’re proud to wear. From women to men</p>
+                        <img class="social_info" src="./assets/Social.png" alt="">
+                    </div>
+
+                    <div class="info_1">
+                        <h2>COMPANY</h2>
+                        <p>About</p>
+                        <p>Features</p>
+                        <p>Works</p>
+                        <p>Careers</p>
+                    </div>
+
+                    <div class="info_1">
+                        <h2>HELP</h2>
+                        <p>Customer Support</p>
+                        <p>Delivery Details</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                    </div>
+
+                    <div class="info_1">
+                        <h2>FAQ</h2>
+                        <p>Account</p>
+                        <p>Manage Deliveries</p>
+                        <p>Orders</p>
+                        <p>Payments</p>
+                    </div>
+
+                    <div class="info_1">
+                        <h2>RESOURCES</h2>
+                        <p>Free eBooks</p>
+                        <p>Development Tutorial</p>
+                        <p>How to - Blog</p>
+                        <p>Youtube Playlist</p>
+                    </div>
+
+                </section>
+                <hr class="separador-footer">
+
+                <section class="contenedor-info_pagos">
+                    <div class="copyright">
+                        <p>Crudzaso.com © 2025, All Rights Reserved</p>
+                    </div>
+                    <div class="contenedor-metodos_pagos">
+                        <img src="./assets/pagos.png" alt="">
+                    </div>
+                </section>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            const titulos = document.querySelectorAll('.contenedor_titulos_reviews h2');
+            titulos.forEach(titulo => {
+                titulo.addEventListener('click', () => {
+                titulos.forEach(th2 => th2.classList.remove('activo'));
+                titulo.classList.add('activo');
+                });
+            });
+        </script>
+
+    </body>
+</html

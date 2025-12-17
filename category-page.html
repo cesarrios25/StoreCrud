@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Category Page</title>
+        <link rel="stylesheet" href="./CSS/category-page.css">
+    </head>
+    <body>
+
+        <header class="principal">
+            <section class="promo">
+                <p>Sing up and get 20% off to your first order. <u>Sing Up Now</u></p>
+                <span>X</span>
+            </section>
+
+            <section class="header">
+                <nav class="navbar">
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list" id="nav-list">
+                        <img src="./assets/CRUD.STORE.png" alt="logo">
+                        <li><a href="#">Shop</a><img src="./assets/Vector-15.png" alt=""></li>
+                        <li class="item"><a href="#">On Sale</a></li>
+                        <li class="item"><a href="#">New Arrivals</a></li>
+                        <li class="item"><a href="#">Brands</a></li>                        
+                    </ul>
+
+                    <div class="search">
+                        <img src="./assets/Vector-3.png" alt="">
+                        <input type="text" placeholder="Search for products...">
+                    </div>
+
+                    <div class="cart-user">
+                        <img src="./assets/Vector.png" alt="">
+                        <img src="./assets/Vector-2.png" alt="">
+                    </div>
+
+                </nav>
+            </section>
+        </header>
+        <hr class="separador-productos">
+
+        <div class="contenedor-navlist_products">
+            <nav class="navbar-products"></nav>
+                <ul class="nav-list_products" id="nav-list_products">
+                    <li><a href="#">Home</a><img src="./assets/derecha.png" alt=""></li>
+                    <li><a href="#">Casual</a></li>                        
+                </ul>
+            </nav>
+        </div>
+        <!-- ------------------------------------------------------------------------------------------------ -->
+
+        <section class="contenedor-principal_aside">
+            <aside class="contenedor_aside">
+                <div class="contenedor-filtro_estilo">
+                    <h2>Filters</h2>
+                    <img src="./assets/Vector-5.png" alt="">
+                </div>
+                <hr class="separador_filtros">
+                <div class="contenedor-filtro-estilo_seleccion">
+                    <p>T-shirts<img src="./assets/derecha.png" alt=""></p>
+                    <p>Shorts<img src="./assets/derecha.png" alt=""></p>
+                    <p>Shirts<img src="./assets/derecha.png" alt=""></p>
+                    <p>Hoodie<img src="./assets/derecha.png" alt=""></p>
+                    <p>Jeans<img src="./assets/derecha.png" alt=""></p>
+                </div>
+
+                <hr class="separador_filtros">
+
+                <div class="contenedor-filtro_precio">
+                    <div class="icon_precio">
+                        <h2>Price</h2>
+                        <img src="./assets/arriba.png" alt="">
+                    </div>
+                    <div class="rango_precio">
+                        <input type="range" min="0" max="300" value="40">
+                        <div class="precios">
+                            <span>$50</span>
+                            <span>$200</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="separador_filtros">
+
+                <div class="contenedor-filtro_colores">
+                    <h2>Colors</h2>
+                    <img src="./assets/arriba.png" alt="">
+                </div>
+                <div class="contenedor-filtro-colores_estilo">
+                    <div class="contenedor_colores">
+                        <span class="col verde"></span>
+                        <span class="col rojo"></span>
+                        <span class="col amarillo"></span>
+                        <span class="col naranja"></span>
+                        <span class="col azul-claro"></span>
+                    </div>
+                    <div class="contenedor_colores">
+                        <span class="col azul-oscuro"></span>
+                        <span class="col morado"></span>
+                        <span class="col fucsia"></span>
+                        <span class="col blanco"></span>
+                        <span class="col negro"></span>
+                    </div>
+                </div>
+
+                <hr class="separador_filtros">
+
+                <div class="contenedor-filtro_medidas">
+                    <h2 class="titulo-size">Size</h2>
+                    <div class="contenedor_medidas">
+                        <span>XX-Small</span>
+                        <span>X-Small</span>
+                        <span>Small</span>
+                        <span>Medium</span>
+                        <span class="medida_b">Large</span>
+                        <span>X-Large</span>
+                        <span>XX-large</span>
+                        <span>3X-Large</span>
+                        <span>4X-Large</span>
+                    </div>
+                </div>
+
+                <hr class="separador_filtros">
+
+                <div class="contenedor-estilo_sel">
+                    <h2>Dress Style</h2>
+                    <div class="estilo_sel">
+                        <p>Casual<img src="./assets/derecha.png" alt=""></p>
+                        <p>Formal<img src="./assets/derecha.png" alt=""></p>
+                        <p>Party<img src="./assets/derecha.png" alt=""></p>
+                        <p>Gym<img src="./assets/derecha.png" alt=""></p>
+                    </div>
+                    <button class="btn_filtros">Apply Filter</button>
+                </div>
+            </aside>
+        
+
+            <section class="contenedor-principal-aside_categoria">
+                <section class="contenedor-cabecera_categoria">
+                    <div class="contenedor_titulo">
+                        <h2>Casual</h2>
+                    </div>
+                    <div class="contenedor-info_categoria">
+                        <p>Showing 1-10 of 100 Products</p>
+                        <p>Sort by: Most Popular</p>
+                        <p>Sort by: <b>Most Popular</b><img src="./assets/Vector-15.png" alt=""></p>
+                    </div>
+                </section>
+
+                <section class="contenedor-productos">
+                    <div class="contenedor-cards_arrivals">
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/gradient.png" alt="">
+                            </div>
+                            <p>Gradient Graphic T-shirt</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>3/5</span>
+                            </div>
+                            <p class="precio">$145</p>
+                        </article>
+                        <!-- -------- -->
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/polo tipping.png" alt="">
+                            </div>
+                            <p>Polo with Tipping Details</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>4.5/5</span>
+                            </div>
+                            <p class="precio">$180</p>
+                        </article>
+                        <!-- -------- -->
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/black stripper.png" alt="">
+                            </div>
+                            <p>Black Striped T-shirt</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>5/5</span>
+                            </div>
+                            <p class="precio">$120 <span class="precio-anterior">$150</span><span class="descuento">-30%</span></p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="contenedor-productos">
+                    <div class="contenedor-cards_arrivals">
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/Skinny.png" alt="">
+                            </div>
+                            <p>SKINNY FIT JEANS</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>3/5</span>
+                            </div>
+                            <p class="precio">$240 <span class="precio-anterior">$260</span><span class="descuento">-20%</span></p>
+                        </article>
+                        <!-- -------- -->
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/Checkered.png" alt="">
+                            </div>
+                            <p>CHECKERED SHIRT</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>4.5/5</span>
+                            </div>
+                            <p class="precio">$180</p>
+                        </article>
+                        <!-- -------- -->
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/Sleeve.png" alt="">
+                            </div>
+                            <p>SLEEVE STRIPED T-SHIRT</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>4.5/5</span>
+                            </div>
+                            <p class="precio">$130 <span class="precio-anterior">$160</span><span class="descuento">-30%</span></p>
+                        </article>
+                    </div>
+
+                </section>
+
+                <section class="contenedor-productos">
+                    <div class="contenedor-cards_arrivals">
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/vertical.png" alt="">
+                            </div>
+                            <p>VERTICAL STRIPED SHIRT</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>5/5</span>
+                            </div>
+                            <p class="precio">$212 <span class="precio-anterior">$232</span><span class="descuento">-20%</span></p>
+                        </article>
+                        <!-- -------- -->
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/courage.png" alt="">
+                            </div>
+                            <p>COURAGE GRAPHIC T-SHIRT</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>4.5/5</span>
+                            </div>
+                            <p class="precio">$145</p>
+                        </article>
+                        <!-- -------- -->
+                        <article class="contenedor-card">
+                            <div class="imagen-producto">
+                                <img src="./assets/loose.png" alt="">
+                            </div>
+                            <p>LOOSE FIT BERMUDA SHORTS</p>
+                            <div class="valoracion">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <img src="./assets/Star 3.png" alt="">
+                                <span>3/5</span>
+                            </div>
+                            <p class="precio">$80</p>
+                        </article>
+                    </div>
+                    <hr class="separador_filtros">
+                </section>
+
+                <div class="contenedor-siguiente_categoria">
+                    <div class="btn_cat">
+                        <button><img src="./assets/izq.png" alt="">Previous</button>
+                    </div>
+                    <div class="contenedor-pag">
+                        <button class="sel-btn">1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>...</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button>10</button>
+                    </div>
+                    <div class="btn_cat">
+                        <button>Next<img src="./assets/der.png" alt=""></button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ----------------------------------------------------------------------------------------------------------- -->
+            
+        <aside class="contenedor-noticias">
+            <div class="contenedor-titulo_noticias">
+                    <img 
+                src="./assets/STAY UPTO DATE ABOUT OUR LATEST OFFERS.png" alt="Stay up to date about our latest offers" class="contenedor-titulo">
+            </div>
+
+            <div class="contenedor-input_noticias">
+                <div class="contenedor-input_email">
+                    <img src="./assets/Vector-8.png" alt="email icon">
+                    <input type="email" placeholder="Enter your email address">
+                </div>
+                <button type="button">Subscribe to Newsletter</button>
+            </div>
+        </aside>
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+        <section class="contenedor-principal_footer">
+            <section class="contenedor-info_footer">
+
+                <div class="info_1">
+                    <img src="./assets/CRUD.STORE.png" alt="">
+                    <p>We have clothes that suits your style and which you’re proud to wear. From women to men</p>
+                    <img class="social_info" src="./assets/Social.png" alt="">
+                </div>
+
+                <div class="info_1">
+                    <h2>COMPANY</h2>
+                    <p>About</p>
+                    <p>Features</p>
+                    <p>Works</p>
+                    <p>Careers</p>
+                </div>
+
+                <div class="info_1">
+                    <h2>HELP</h2>
+                    <p>Customer Support</p>
+                    <p>Delivery Details</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+
+                <div class="info_1">
+                    <h2>FAQ</h2>
+                    <p>Account</p>
+                    <p>Manage Deliveries</p>
+                    <p>Orders</p>
+                    <p>Payments</p>
+                </div>
+
+                <div class="info_1">
+                    <h2>RESOURCES</h2>
+                    <p>Free eBooks</p>
+                    <p>Development Tutorial</p>
+                    <p>How to - Blog</p>
+                    <p>Youtube Playlist</p>
+                </div>
+
+            </section>
+            <hr class="separador-footer">
+
+            <section class="contenedor-info_pagos">
+                <div class="copyright">
+                    <p>Crudzaso.com © 2025, All Rights Reserved</p>
+                </div>
+                <div class="contenedor-metodos_pagos">
+                    <img src="./assets/pagos.png" alt="">
+                </div>
+            </section>
+        </section>
+    </body>
+</html>

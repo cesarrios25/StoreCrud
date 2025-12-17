@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="./CSS/cart.css">
+    </head>
+    <body>
+
+        <header class="principal">
+            <section class="promo">
+                <p>Sing up and get 20% off to your first order. <u>Sing Up Now</u></p>
+                <span>X</span>
+            </section>
+
+            <section class="header">
+                <nav class="navbar">
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list" id="nav-list">
+                        <img src="./assets/CRUD.STORE.png" alt="logo">
+                        <li><a href="#">Shop</a><img src="./assets/Vector-15.png" alt=""></li>
+                        <li class="item"><a href="#">On Sale</a></li>
+                        <li class="item"><a href="#">New Arrivals</a></li>
+                        <li class="item"><a href="#">Brands</a></li>                        
+                    </ul>
+
+                    <div class="search">
+                        <img src="./assets/Vector-3.png" alt="">
+                        <input type="text" placeholder="Search for products...">
+                    </div>
+
+                    <div class="cart-user">
+                        <img class="lupa" src="./assets/Vector-3.png" alt="">
+                        <img src="./assets/Vector.png" alt="">
+                        <img src="./assets/Vector-2.png" alt="">
+                    </div>
+
+                </nav>
+            </section>
+        </header>
+        <hr class="separador-productos">
+
+        <div class="contenedor-navlist_products">
+            <nav class="navbar-products"></nav>
+                <ul class="nav-list_products" id="nav-list_products">
+                    <li><a href="#">Home</a><img src="./assets/derecha.png" alt=""></li>
+                    <li><a href="#">Cart</a></li>                        
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <section class="contenedor-principal_cart">
+                <h2>Your cart</h2>
+                <div class="contenedor">
+                <section class="contenedor-bolsa_cart">
+                    <article class="contenedor-card_bolsa">
+                        <div class="contenedor-img_bolsa">
+                            <img src="./assets/gradient.png" alt="" width="100px">
+                            <div>
+                                <h1 class="titulo_cart">Gradient Graphic T-shirt</h2>
+                                <p><b>Size:</b> Large</p>
+                                <p class="par"><b>Color:</b> White</p>
+                                <span>$145</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor-agregar_cant">
+                            <img class="img_cart" src="./assets/eliminar.png" alt="">
+                            <div class="contenedor-cantidad_agregar">
+                                <div class="agregar_cantidad">
+                                    <button class="disminuir"><img src="./assets/Vector-19.png" alt=""></button>
+                                    <span>1</span>
+                                    <button class="aumentar"><img src="./assets/mas.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="separador_filtros">
+                    <!-- ---------------- -->
+                     <article class="contenedor-card_bolsa">
+                        <div class="contenedor-img_bolsa">
+                            <img src="./assets/Checkered.png" alt="" width="100px">
+                            <div>
+                                <h1 class="titulo_cart">Chekered Shirt</h2>
+                                <p><b>Size:</b> Medium</p>
+                                <p class="par"><b>Color:</b> Red</p>
+                                <span>$180</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor-agregar_cant">
+                            <img class="img_cart" src="./assets/eliminar.png" alt="">
+                            <div class="contenedor-cantidad_agregar">
+                                <div class="agregar_cantidad">
+                                    <button class="disminuir"><img src="./assets/Vector-19.png" alt=""></button>
+                                    <span>1</span>
+                                    <button class="aumentar"><img src="./assets/mas.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- ---------------- -->
+                     <hr class="separador_filtros">
+                    <!-- ---------------- -->
+                     <article class="contenedor-card_bolsa">
+                        <div class="contenedor-img_bolsa">
+                            <img src="./assets/Skinny.png" alt="" width="100px">
+                            <div>
+                                <h1 class="titulo_cart">Skinny Fit Jeans</h2>
+                                <p><b>Size:</b> Large</p>
+                                <p class="par"><b>Color:</b> Blue</p>
+                                <span>$240</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor-agregar_cant">
+                            <img class="img_cart" src="./assets/eliminar.png" alt="">
+                            <div class="contenedor-cantidad_agregar">
+                                <div class="agregar_cantidad">
+                                    <button class="disminuir"><img src="./assets/Vector-19.png" alt=""></button>
+                                    <span>1</span>
+                                    <button class="aumentar"><img src="./assets/mas.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+<!-- ---------------- -->
+                <section class="contenedor-pagar_cart">
+                    <h3 class="titulo_pago">Order Summary</h2>
+                    <div class="contenedor_subtotal">
+                        <div class="valor">
+                            <p>Subtotal</p>
+                            <span>$565</span>
+                        </div>
+                        <div class="valor">
+                            <p>Discount (-20%)</p>
+                            <span>-$113</span>
+                        </div>
+                        <div class="valor">
+                            <p>Delivery Free</p>
+                            <span>$15</span>
+                        </div>
+                    </div>
+                    <hr class="separador_filtros">
+                    <div class="total_pago">
+                        <p>Total</p>
+                        <span>$467</span>
+                    </div>
+                    <div class="cont_aplicar">
+                        <div>
+                            <img src="./assets/cod.png" alt=""><input type="text" placeholder="Add promo code"></img>
+                        </div>
+                        <button>Apply</button>
+                    </div>
+                    <div class="red-pago">
+                        <button>Go to Checkout<img src="./assets/der.png" alt=""></button>
+                    </div>
+                </section>
+                </div>
+            </section>
+
+            <!-- ----------------------------------------------------------------------------------------------------------- -->
+            
+        <aside class="contenedor-noticias">
+            <div class="contenedor-titulo_noticias">
+                    <img 
+                src="./assets/STAY UPTO DATE ABOUT OUR LATEST OFFERS.png" alt="titulo" class="contenedor-titulo">
+            </div>
+
+            <div class="contenedor-input_noticias">
+                <div class="contenedor-input_email">
+                    <img src="./assets/Vector-8.png" alt="email icon">
+                    <input type="email" placeholder="Enter your email address">
+                </div>
+                <button type="button">Subscribe to Newsletter</button>
+            </div>
+        </aside>
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+        <section class="contenedor-principal_footer">
+            <section class="contenedor-info_footer">
+
+                <div class="info_1">
+                    <img src="./assets/CRUD.STORE.png" alt="">
+                    <p>We have clothes that suits your style and which you’re proud to wear. From women to men</p>
+                    <img class="social_info" src="./assets/Social.png" alt="">
+                </div>
+                <!-- <div class="footer-column"> -->
+                    <div class="info_1">
+                        <h2>COMPANY</h2>
+                        <p>About</p>
+                        <p>Features</p>
+                        <p>Works</p>
+                        <p>Careers</p>
+                    </div>
+
+                    <div class="info_1">
+                        <h2>HELP</h2>
+                        <p>Customer Support</p>
+                        <p>Delivery Details</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                    </div>
+
+                    <div class="info_1">
+                        <h2>FAQ</h2>
+                        <p>Account</p>
+                        <p>Manage Deliveries</p>
+                        <p>Orders</p>
+                        <p>Payments</p>
+                    </div>
+
+                    <div class="info_1">
+                        <h2>RESOURCES</h2>
+                        <p>Free eBooks</p>
+                        <p>Development Tutorial</p>
+                        <p>How to - Blog</p>
+                        <p>Youtube Playlist</p>
+                    </div>
+                <!-- </div> -->
+
+            </section>
+            <hr class="separador-footer">
+
+            <section class="contenedor-info_pagos">
+                <div class="copyright">
+                    <p>Crudzaso.com © 2025, All Rights Reserved</p>
+                </div>
+                <div class="contenedor-metodos_pagos">
+                    <img src="./assets/pagos.png" alt="">
+                </div>
+            </section>
+        </section>
+
+
+
+
+        </main>
+
+
+        
+    </body>
+</html>
