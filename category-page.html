@@ -22,7 +22,7 @@
                         <span></span>
                     </div>
                     <ul class="nav-list" id="nav-list">
-                        <img src="./assets/CRUD.STORE.png" alt="logo">
+                        <a href="./index.html"><img src="./assets/CRUD.STORE.png" alt=""></a>
                         <li><a href="#">Shop</a><img src="./assets/Vector-15.png" alt=""></li>
                         <li class="item"><a href="#">On Sale</a></li>
                         <li class="item"><a href="#">New Arrivals</a></li>
@@ -35,7 +35,8 @@
                     </div>
 
                     <div class="cart-user">
-                        <img src="./assets/Vector.png" alt="">
+                        <img class="lupa" src="./assets/Vector-3.png" alt="">
+                        <a href="./cart.html"><img src="./assets/Vector.png" alt=""></a>
                         <img src="./assets/Vector-2.png" alt="">
                     </div>
 
@@ -147,8 +148,8 @@
                     </div>
                     <div class="contenedor-info_categoria">
                         <p>Showing 1-10 of 100 Products</p>
-                        <p>Sort by: Most Popular</p>
-                        <p>Sort by: <b>Most Popular</b><img src="./assets/Vector-15.png" alt=""></p>
+                        <p class="most-popular">Sort by: Most Popular</p>
+                        <p class="most-popular">Sort by: <b>Most Popular</b><img src="./assets/Vector-15.png" alt=""></p>
                     </div>
                 </section>
 
@@ -156,7 +157,7 @@
                     <div class="contenedor-cards_arrivals">
                         <article class="contenedor-card">
                             <div class="imagen-producto">
-                                <img src="./assets/gradient.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/gradient.png" alt=""></a>
                             </div>
                             <p>Gradient Graphic T-shirt</p>
                             <div class="valoracion">
@@ -170,7 +171,7 @@
                         <!-- -------- -->
                         <article class="contenedor-card">
                             <div class="imagen-producto">
-                                <img src="./assets/polo tipping.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/polo tipping.png" alt=""></a>
                             </div>
                             <p>Polo with Tipping Details</p>
                             <div class="valoracion">
@@ -183,9 +184,9 @@
                             <p class="precio">$180</p>
                         </article>
                         <!-- -------- -->
-                        <article class="contenedor-card">
+                        <article class="contenedor-card hidden">
                             <div class="imagen-producto">
-                                <img src="./assets/black stripper.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/black stripper.png" alt=""></a>
                             </div>
                             <p>Black Striped T-shirt</p>
                             <div class="valoracion">
@@ -205,7 +206,7 @@
                     <div class="contenedor-cards_arrivals">
                         <article class="contenedor-card">
                             <div class="imagen-producto">
-                                <img src="./assets/Skinny.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/Skinny.png" alt=""></a>
                             </div>
                             <p>SKINNY FIT JEANS</p>
                             <div class="valoracion">
@@ -219,7 +220,7 @@
                         <!-- -------- -->
                         <article class="contenedor-card">
                             <div class="imagen-producto">
-                                <img src="./assets/Checkered.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/Checkered.png" alt=""></a>
                             </div>
                             <p>CHECKERED SHIRT</p>
                             <div class="valoracion">
@@ -232,9 +233,9 @@
                             <p class="precio">$180</p>
                         </article>
                         <!-- -------- -->
-                        <article class="contenedor-card">
+                        <article class="contenedor-card hidden">
                             <div class="imagen-producto">
-                                <img src="./assets/Sleeve.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/Sleeve.png" alt=""></a>
                             </div>
                             <p>SLEEVE STRIPED T-SHIRT</p>
                             <div class="valoracion">
@@ -254,7 +255,7 @@
                     <div class="contenedor-cards_arrivals">
                         <article class="contenedor-card">
                             <div class="imagen-producto">
-                                <img src="./assets/vertical.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/vertical.png" alt=""></a>
                             </div>
                             <p>VERTICAL STRIPED SHIRT</p>
                             <div class="valoracion">
@@ -267,10 +268,10 @@
                             </div>
                             <p class="precio">$212 <span class="precio-anterior">$232</span><span class="descuento">-20%</span></p>
                         </article>
-                        <!-- -------- -->
+                        
                         <article class="contenedor-card">
                             <div class="imagen-producto">
-                                <img src="./assets/courage.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/courage.png" alt=""></a>
                             </div>
                             <p>COURAGE GRAPHIC T-SHIRT</p>
                             <div class="valoracion">
@@ -282,10 +283,10 @@
                             </div>
                             <p class="precio">$145</p>
                         </article>
-                        <!-- -------- -->
-                        <article class="contenedor-card">
+                        
+                        <article class="contenedor-card hidden">
                             <div class="imagen-producto">
-                                <img src="./assets/loose.png" alt="">
+                                <a href="./product_detail.html"><img src="./assets/loose.png" alt=""></a>
                             </div>
                             <p>LOOSE FIT BERMUDA SHORTS</p>
                             <div class="valoracion">
@@ -307,9 +308,9 @@
                     <div class="contenedor-pag">
                         <button class="sel-btn">1</button>
                         <button>2</button>
-                        <button>3</button>
+                        <button class="hidden-pag">3</button>
                         <button>...</button>
-                        <button>8</button>
+                        <button class="hidden-pag">8</button>
                         <button>9</button>
                         <button>10</button>
                     </div>
@@ -341,43 +342,44 @@
         <section class="contenedor-principal_footer">
             <section class="contenedor-info_footer">
 
-                <div class="info_1">
+                <div class="info_2">
                     <img src="./assets/CRUD.STORE.png" alt="">
                     <p>We have clothes that suits your style and which you’re proud to wear. From women to men</p>
                     <img class="social_info" src="./assets/Social.png" alt="">
                 </div>
 
-                <div class="info_1">
-                    <h2>COMPANY</h2>
-                    <p>About</p>
-                    <p>Features</p>
-                    <p>Works</p>
-                    <p>Careers</p>
-                </div>
+                 <div class="column">
+                        <div class="info_1 info_2">
+                            <h2>COMPANY</h2>
+                            <p>About</p>
+                            <p>Features</p>
+                            <p>Works</p>
+                            <p>Careers</p>
+                        </div>
 
-                <div class="info_1">
-                    <h2>HELP</h2>
-                    <p>Customer Support</p>
-                    <p>Delivery Details</p>
-                    <p>Terms & Conditions</p>
-                    <p>Privacy Policy</p>
-                </div>
+                        <div class="info_1 info_2">
+                            <h2>HELP</h2>
+                            <p>Customer Support</p>
+                            <p>Delivery Details</p>
+                            <p>Terms & Conditions</p>
+                            <p>Privacy Policy</p>
+                        </div>
 
-                <div class="info_1">
-                    <h2>FAQ</h2>
-                    <p>Account</p>
-                    <p>Manage Deliveries</p>
-                    <p>Orders</p>
-                    <p>Payments</p>
-                </div>
-
-                <div class="info_1">
-                    <h2>RESOURCES</h2>
-                    <p>Free eBooks</p>
-                    <p>Development Tutorial</p>
-                    <p>How to - Blog</p>
-                    <p>Youtube Playlist</p>
-                </div>
+                        <div class="info_1 info_2">
+                            <h2>FAQ</h2>
+                            <p>Account</p>
+                            <p>Manage Deliveries</p>
+                            <p>Orders</p>
+                            <p>Payments</p>
+                        </div>
+                        <div class="info_1 info_2">
+                            <h2>RESOURCES</h2>
+                            <p>Free eBooks</p>
+                            <p>Development Tutorial</p>
+                            <p>How to - Blog</p>
+                            <p>Youtube Playlist</p>
+                        </div>
+                    </div>
 
             </section>
             <hr class="separador-footer">

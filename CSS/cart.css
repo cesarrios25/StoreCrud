@@ -423,21 +423,20 @@ html {
     align-items: center;
     margin-top: 14rem;
 }
-.info_1 {
+.info_2 {
     height: 230px;
     width: 270px;
-    margin-right: 10rem;
 }
-.info_1 img {
+.info_2 img {
     margin-bottom: 4rem;
     width: 255px;
 }
-.info_1 p {
+.info_2 p {
     font-size: 1.7rem;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, 0.6);
 }
-.info_1 .social_info {
+.info_2 .social_info {
     width: 190px;
     margin-bottom: 4rem;
 }
@@ -446,6 +445,9 @@ html {
     text-align: start;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, 1);
+}
+.column {
+  display: flex;
 }
 .separador-footer {
     margin-top: 2rem;
@@ -741,5 +743,24 @@ html {
     display: flex;
     justify-content: start;
     margin-bottom: 1rem;
+}
+.column {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+.column .info_1 {
+        width: 45%;
+    }
+    .info_1 p {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.info_1 h2 {
+    font-size: 1.6rem;
+    text-align: start;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 1);
 }
 }
