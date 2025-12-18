@@ -230,6 +230,12 @@ html {
 .contenedor-card {
     text-align: left;
     margin-bottom: 5rem;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.contenedor-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 .imagen-producto {
 
@@ -292,6 +298,17 @@ html {
     margin: 0 auto;
     border: 1px solid #8080804d;
     margin-bottom: 1rem;
+
+    transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.btn-arrivals:hover {
+    transform: translateY(-8px) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.15);
 }
 /* -------------------------------------- */
 .separador-productos {
@@ -339,6 +356,10 @@ html {
 .item-arriba_derecha {
     width: 60%;
     height: 300px;
+}
+.item-arriba_izquierdo img:hover, .item-arriba_derecha img:hover, .item-abajo_izquierdo img:hover, .item-abajo_derecha img:hover {
+    box-shadow: 0 4px 14px #959595;
+    border-radius: 19px;
 }
 /* --------------------------- */
 
