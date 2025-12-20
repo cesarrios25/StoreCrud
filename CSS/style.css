@@ -27,6 +27,7 @@ html {
     font-size: 15px;
     padding-right: 1rem;
 }
+
 /* --------------------------------------- */
 .header {
     width: 100%;
@@ -230,12 +231,13 @@ html {
 .contenedor-card {
     text-align: left;
     margin-bottom: 5rem;
-    transition: transform 0.35s ease, box-shadow 0.35s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.35s ease;
+    margin: 0 auto;
 }
 .contenedor-card:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
 }
 .imagen-producto {
 
@@ -298,17 +300,11 @@ html {
     margin: 0 auto;
     border: 1px solid #8080804d;
     margin-bottom: 1rem;
-
-    transition: 
-    transform 0.35s ease,
-    box-shadow 0.35s ease;
-  box-shadow: 
-    0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.35s ease,
 }
 .btn-arrivals:hover {
     transform: translateY(-8px) scale(1.02);
-  box-shadow: 
-    0 20px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 /* -------------------------------------- */
 .separador-productos {
@@ -775,21 +771,24 @@ main {
 .contenedor-productos h1 {
     font-size: 3.4rem;
     font-weight: bold;
-    margin: 4rem 0;
-    padding-top: 3rem;
+    margin: 3rem 0;
+    padding-top: 0rem;
 }
 .contenedor-cards_arrivals {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    margin-bottom: 3rem;
-}
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(200px, 1fr);
+        overflow-x: auto;
+        overflow-y: hidden;
+        margin-bottom: 3rem;
+        padding-bottom: 0.5rem;
+    }
 .contenedor-card {
     text-align: left;
     margin-bottom: 0rem;
 }
 .imagen-producto {
-    width: 180px;
+    width: 200px;
     background: #F0F0F0;
     border-radius: 16px;
     padding: 1rem;
@@ -799,8 +798,8 @@ main {
     margin-bottom: 1rem;
 }
 .imagen-producto img {
-    width: 230px;
-    height: 230px;
+    width: 160px;
+    height: 220px;
 }
 .btn-arrivals {
     width: 100%;

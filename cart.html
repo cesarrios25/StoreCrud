@@ -157,13 +157,22 @@
                         <div>
                             <img src="./assets/cod.png" alt=""><input type="text" placeholder="Add promo code"></img>
                         </div>
-                        <button>Apply</button>
+                        <button class="cod">Apply</button>
                     </div>
                     <div class="red-pago">
                         <button>Go to Checkout<img src="./assets/der.png" alt=""></button>
                     </div>
                 </section>
                 </div>
+            <!--  MODAL -->
+                <div class="modal">
+                    <div class="modal-content">
+                        <h1>INGRESA UN CODIGO CORRECTO</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="close">x</span>
+                    </div>
+                </div>
+
             </section>
 
             <!-- ----------------------------------------------------------------------------------------------------------- -->
@@ -243,7 +252,19 @@
 
         </main>
 
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.modal').style.display = "none";
+            });
 
+            document.querySelector('.cod').addEventListener('click', () => {
+                document.querySelector('.modal').style.display = "flex"
+            })
+
+            document.querySelector('.close').addEventListener('click', () => {
+                document.querySelector('.modal').style.display="none"
+            })
+        </script>
         
     </body>
 </html>
